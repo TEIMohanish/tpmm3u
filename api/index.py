@@ -16,7 +16,7 @@ CONFIG = {
     "keys_url": "https://fox.toxic-gang.xyz/tata/key",
     "hmac_url": "https://fox.toxic-gang.xyz/tata/hmac",
     "epg_url": "https://raw.githubusercontent.com/mitthu786/tvepg/main/tataplay/epg.xml.gz",
-    "FQDN": os.getenv('FQDN', 'tataplay-learner.vercel.app')
+    "FQDN": os.getenv('FQDN', 'https://tpmm3u.vercel.app/')
 }
 
 app = Flask(__name__)
